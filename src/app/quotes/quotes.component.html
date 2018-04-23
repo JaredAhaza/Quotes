@@ -8,8 +8,8 @@
   <div class="row" *ngFor='let q of quotes'>
     <div class="col-md-12" style="height:20vh; background-color:green;margin:2px">
       {{q.name}}{{q.author}}{{q.date}}
-      <button click"upvote(i)" class="btn btn-info">upvote</button>{{ quote.upvotes }}
-      <button click"downvote(i)"class="btn btn-danger">downvote</button>{{ quote.downvotes }}
+      <button click"upVote(i)" class="btn btn-info">upvote</button>{{ count }}
+      <button click"downVote(i)"class="btn btn-danger">downvote</button>{{ count2 }}
       <button click"delete(i)"class="btn btn-success">delete</button>
     </div>
   </div>
