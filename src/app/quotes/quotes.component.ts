@@ -9,6 +9,9 @@ import {Quote} from '../quotes'
 export class QuotesComponent implements OnInit {
 
   @Input() quotes
+  upvote(id) {
+    this.quotes[id].upvote()
+  }
 
   constructor() {
   this.quotes = []
