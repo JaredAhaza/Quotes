@@ -9,16 +9,16 @@ import {Quote} from '../quotes'
 export class QuotesComponent implements OnInit {
 
   @Input() quotes
-  upVote(id) {
-    this.quotes[id].upVote()
-  }
-  downVote(id) {
-    this.quotes[id].downVote()
-  }
-
-delete(id) {
-  this.quotes.splice(this.quotes[id])
-}
+//   upVote(id) {
+//     this.quotes[id].upVote()
+//   }
+//   downVote(id) {
+//     this.quotes[id].downVote()
+//   }
+//
+// delete[id]() {
+//   this.quotes.splice(this.quotes[id])
+// }
 
 
   constructor() {
