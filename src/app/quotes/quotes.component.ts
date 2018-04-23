@@ -10,10 +10,10 @@ export class QuotesComponent implements OnInit {
 
   @Input() quotes
   upVote(id) {
-    this.quotes[id].upvote()
+    this.quotes[id].upVote()
   }
   downVote(id) {
-    this.quotes[id].downvote()
+    this.quotes[id].downVote()
   }
 
 delete(id) {
