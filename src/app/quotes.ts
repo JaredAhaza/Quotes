@@ -16,7 +16,12 @@ export class Quote {
     this.date = new Date()
 
   }
-
+  upvote(){
+    this.upvotes++
+  }
+  downvote(){
+    this.downvotes++
+  }
 }
 // export class Quote{
 // name:string

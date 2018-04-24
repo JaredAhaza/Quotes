@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
-
 import { QuotesComponent } from './quotes/quotes.component';
 
 
@@ -11,7 +10,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent
+    QuotesComponent,
   ],
   imports: [
     BrowserModule,
