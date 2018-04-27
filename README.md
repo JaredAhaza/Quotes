@@ -5,15 +5,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #Objectives
 
 The main objectives of this project is to allow one to access a variety of quotes.
-Beside just viewing the quotes one is able to like the quotes, dislike the quotes, add a quote and even delete a quote
+Beside just viewing the quotes one is able to like the quotes, dislike the quotes, add a quote and even delete a quote.
+
+#Technologies Used
+
+In development of this project I used angular cli 5 which is a framework for JavaScript. Bootstrap is also used for styling.
 
 #Deployment
 
-The project has been hosted on github and deployed online and can be accessed through the following link()
+The project has been hosted on github and deployed online and can be accessed through the following link(https://jaredahaza.github.io/Quotes/)
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for ng build --prod --base-href="https://GithubUserName.github.io/GithubREPO/"a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
