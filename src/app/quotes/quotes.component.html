@@ -2,7 +2,7 @@
 <!-- <ul *ngFor='let q of quotes'>
   <li>{{q.name}}</li>
 </ul> -->
-
+<app-form (emitData)='getData($event)'></app-form>
 
 <div class="container">
   <div class="row" *ngFor='let q of quotes; let i=index'>

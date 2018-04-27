@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+#Objectives
+
+The main objectives of this project is to allow one to access a variety of quotes.
+Beside just viewing the quotes one is able to like the quotes, dislike the quotes, add a quote and even delete a quote
+
+#Deployment
+
+The project has been hosted on github and deployed online and can be accessed through the following link()
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

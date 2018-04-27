@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit,Input,Output } from '@angular/core';
 import {Quote} from '../quotes'
 @Component({
 
@@ -8,7 +8,14 @@ import {Quote} from '../quotes'
 })
 export class QuotesComponent implements OnInit {
 
-  @Input() quotes
+  // @Input() quotes
+  quotes = [
+    new Quote(1,"my quotes", "author","This is a quote",0,0,new Date(2018,1,4))
+  ]
+
+  getData(e){
+    this.quotes.push(e);
+  }
 
 upVote(id) {
     this.quotes[id].upvote()
@@ -19,7 +26,7 @@ downVote(id) {
   }
 
 delete(id) {
-  this.quotes.splice(this.quotes[id])
+  this.quotes.splice(id,1)
 }
 
 

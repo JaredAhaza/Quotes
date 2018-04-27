@@ -1,0 +1,29 @@
+<div class="container">
+<div class="jumbotron">
+    <div class="col-md-8">
+<h1>Welcome To The Home Of Quotes</h1>
+<form (ngSubmit)=onFormSubmit(myform) #myform=ngForm>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" type="text" name='name' ngModel>
+
+    </div>
+    <div class="form-group">
+      <label for="quote">Quote</label>
+      <input class="form-control" type="text" name='quote' ngModel>
+
+    </div>
+    <div class="form-group">
+      <label for="author">Author</label>
+      <input class="form-control" type="text" name='author' ngModel>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-danger">Add Quote</button>
+    </div>
+    </form>
+  </div>
+  </div>
+  <div class="col-md-4">
+  </div>
+
+</div>

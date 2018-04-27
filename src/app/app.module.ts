@@ -4,6 +4,8 @@ import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
+import { FormComponent } from './form/form.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 
 
@@ -11,6 +13,8 @@ import { QuotesComponent } from './quotes/quotes.component';
   declarations: [
     AppComponent,
     QuotesComponent,
+    FormComponent,
+    StrikethroughDirective,
   ],
   imports: [
     BrowserModule,
